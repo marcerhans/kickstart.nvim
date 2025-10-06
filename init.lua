@@ -1015,5 +1015,5 @@ require('lazy').setup({
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
 
-vim.keymap.set('n', 'äb', '<CMD>bp<CR>', { noremap = true, silent = true })
-vim.keymap.set('n', 'än', '<CMD>bn<CR>', { noremap = true, silent = true })
+vim.keymap.set('n', 'öb', '<CMD>bp<CR>', { noremap = true, silent = true })
+vim.keymap.set('n', 'ön', '<CMD>bn<CR>', { noremap = true, silent = true })
