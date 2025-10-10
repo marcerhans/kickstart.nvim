@@ -1019,5 +1019,4 @@ require('lazy').setup({
 -- Keybinds
 vim.keymap.set('n', 'öb', '<CMD>bp<CR>', { noremap = true, silent = true })
 vim.keymap.set('n', 'ön', '<CMD>bn<CR>', { noremap = true, silent = true })
-
--- Visuals
+vim.keymap.set('n', 'öd', '<CMD>bd<CR>', { noremap = true, silent = true })
